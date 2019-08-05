@@ -3,11 +3,12 @@
 ## Content
 
 > ### Instructor Notes
-> Send out the *starter-code* to the students and have them open it in VSCode. 
+>
+> Send out the _starter-code_ to the students and have them open it in VSCode.
 
-> *IMPORTANT:* Have them create a new folder either in Desktop or Documents called CodeFirst:Girls, and sub folder called 01_HTML
+> _IMPORTANT:_ Have them create a new folder either in Desktop or Documents called CodeFirst:Girls, and sub folder called 01_HTML
 
-> File structure should look like 
+> File structure should look like
 
 ```
 CodeFirst:Girls
@@ -28,7 +29,7 @@ CodeFirst:Girls
 
 ## Intro
 
-HTML (currently HTML5) stands Hyper Text Markup Language, and was developed to make data more human-readable when the world wide web was in its infancy. 
+HTML (currently HTML5) stands Hyper Text Markup Language, and was developed to make data more human-readable when the world wide web was in its infancy.
 
 Its job is pure structure (it has basic styling by default which is almost always overw-ridden).
 
@@ -46,18 +47,12 @@ Think of it like a skeleton, or a bookshelf, or a wardrobe: it doesn't have to b
 
 3. ...the `<head></head>`...
 
-> This is the 'thinking' part of our HTML, where we can fetch data  (CSS, fonts, scripts, JSON, SEO etc). It all gets run 'behind-the-scenes', so to speak
+> This is the 'thinking' part of our HTML, where we can fetch data (CSS, fonts, scripts, JSON, SEO etc). It all gets run 'behind-the-scenes', so to speak
 
 4. ...or the `<body></body>`
 
 > This is where we actually see our content
 
 ## Recap
-
-## Homework
-
-- Basic
-
-- Extended
 
 ## Resources
