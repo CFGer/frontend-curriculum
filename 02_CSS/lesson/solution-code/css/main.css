@@ -11,11 +11,10 @@ body {
   /* Its common to remove default styles */
   margin: 0;
   padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
-  color: green;
+  color: hsl(224, 100%, 25%);
   text-decoration: underline;
 }
 
