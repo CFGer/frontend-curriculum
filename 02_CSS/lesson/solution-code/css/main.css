@@ -3,7 +3,7 @@
 /* WILDCARD */
 * {
   /* overlays every item on the page with an outline. VERY useful for development */
-  outline: 1px solid orange;
+  /* outline: 1px solid orange; */
 }
 
 /* ELEMENTS */
@@ -73,6 +73,15 @@ tr {
 thead th {
   color: purple
 }
+/* All links in the table */
+table a {
+  color: purple
+}
+
+/* Only links in the head */
+thead th a {
+  font-size: 30px;
+}
 
 /* !!!!!!! BAD PRACTICES !!!!!!! */
 
@@ -80,4 +89,9 @@ thead th {
 /* Applying CSS using IDs is considered very bad practice as it is highly specific and thus near impossible to override Use classes or attributes instead */
 #h-rule {
   margin: 20px 0;
+}
+
+/* !important */
+thead th {
+  /* background: rgb(0, 255, 55) !important; */
 }
