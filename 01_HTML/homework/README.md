@@ -36,9 +36,11 @@ A tidy project is essential for coding, and everything should be in its place. F
 ## The theme is up to you, but it could look something like:
 
 `index.html`
+
 ![ss1](./resources/ss1.png)
 
 `./pages/page2.html`
+
 ![ss1](./resources/ss2.png)
 
 ## Tips and resources

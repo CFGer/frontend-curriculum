@@ -1,0 +1,83 @@
+/* There are many ways to target elements in CSS */
+
+/* WILDCARD */
+* {
+  /* overlays every item on the page with an outline. VERY useful for development */
+  outline: 1px solid orange;
+}
+
+/* ELEMENTS */
+body {
+  /* Its common to remove default styles */
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  color: green;
+  text-decoration: underline;
+}
+
+h4 {
+  letter-spacing: 3px;
+}
+
+/* To target multiple selectors, separate them with a comma */
+h1, h4 {
+  text-align: center;
+}
+
+/* CLASSES */
+/* classes are a way to target multiple elements of any type containing the same class */
+
+/* There are a few ways to add color... */
+.color1 {
+  /* solid color */
+  color: aqua;
+}
+.color2 {
+  /* Hexadecimal */
+  color: #ac2399;
+}
+.color3 {
+  /* RGB */
+  color: rgb(27, 125, 48);
+}
+
+/* Flexbox is a powerful way to position your elements */
+.hero {
+  width: 100%;
+  height: 200px;
+  /* Use the below 3 for perfect centering  */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text {
+  width: 300px;
+  text-align: justify;
+}
+
+/* the 'Cascading' part of CSS */
+th, td {
+  padding: 15px;
+  color: red;
+}
+
+tr {
+  text-align: center;
+}
+
+thead th {
+  color: purple
+}
+
+/* !!!!!!! BAD PRACTICES !!!!!!! */
+
+/* IDs */
+/* Applying CSS using IDs is considered very bad practice as it is highly specific and thus near impossible to override Use classes or attributes instead */
+#h-rule {
+  margin: 20px 0;
+}
