@@ -1,10 +1,12 @@
 * {
-  outline: 1px solid orange;
+  /* outline: 1px solid orange; */
 }
 
 html, body {
   margin: 0;
   padding: 0;
+  font-family: sans-serif;
+  font-weight: 100;
 }
 
 /* NAVBAR */
@@ -40,6 +42,8 @@ nav a {
   justify-content: center;
   flex-direction: column;
   height: 400px;
+  background: #242424;
+  color: #fff;
 }
 
 .hero p {
@@ -54,9 +58,15 @@ nav a {
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  padding: 5rem 3rem;
+  padding: 5rem 4rem;
   flex-direction: column;
   background: #fff;
+  background: url('../img/bg.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  line-height: 30px;
+  box-sizing: inset 5px 0 20px 0px black;
 }
 
 .jumbotron article p {
@@ -76,6 +86,29 @@ video {
   padding: 3rem;
   box-sizing: border-box;
   text-align: center;
+}
+
+/* TABLE */
+.table-container {
+  width: 100%;
+  padding: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+table {
+  border: 1px solid grey;
+}
+
+table th, table td {
+  padding: 10px 20px;
+}
+
+tbody tr:nth-child(odd) {
+  background: rgb(62, 62, 62);
+  color: #fff;
 }
 
 /* GALLERY */
