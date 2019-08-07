@@ -108,6 +108,8 @@ CSS loosely falls into several categories:
 2. Box-model
 
 > the cornerstone of CSS - don't need to go into too much detail, just show the diagram that every element is made up of **content**, **padding**, **border** and **margin**
+>
+> explain that here we're targeting the ELEMENTS
 
 ![Box-model](./resources/ss1.png)
 
@@ -204,7 +206,180 @@ h1 {
 ```
 
 
-#### Positioning, Spacing and Display
+#### Display, Spacing and Positioning
+
+> Introduce CLASSES
+
+6. Display
+
+> `display: flex` is perhaps one of the most useful advances in CSS
+> 
+> There's far more to it than what we can cover here
+
+**index.html**
+
+```html
+  <div class="hero">
+    <p class="text">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, soluta quas consequatur facere numquam voluptatum
+      labore, eum ratione dolor placeat assumenda fugit iusto accusamus atque, porro eveniet tenetur perferendis quis!
+    </p>
+  </div>
+```
+
+**./css/main.css**
+
+```css
+.hero {
+  width: 100%;
+  height: 200px;
+  /* Use the below 3 for perfect centering  */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text {
+  width: 300px;
+  text-align: justify;
+}
+```
+
+7. Spacing
+
+> Expanding the Box Model using a div
+> 
+> Show the students the integrated box model in the chrome dev tools
+
+```html
+<div class="hero">
+  ...
+  <div class="box">Box</div>
+</div>
+```
+
+```css
+.box {
+  /* content */
+  width: 300px;
+  height: 200px;
+  /* padding - top-right-bottom-left */
+  padding: 20px 40px 20px 40px; // or 20px 40px;
+  /* border - width-style-color */
+  border: 5px solid black;
+  /* margin */
+  margin: 40px;
+}
+```
+
+8. Positioning
+
+> ONLY IF TIME
+> 
+> Positioning can be tough for beginners, especially when dealing with absolute
+
+```css
+
+```
+
+
+## Cascading
+
+CSS works by inheritanbce: elements inherit their styles from other elements further down the tree and apply the most recent. The trick is knowing when and how to be specific
+
+Looking at the `<table>` example, we're going to target different elements using a mix of selectors and inheritance
+
+> Talk through briefly about what they're looking at
+
+```html
+<table>
+  <thead>
+    <tr>
+      <th>Col 1</th>
+      <th><a href="#">Col 2</a></th>
+      <th>Col 3</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="row">
+      <td>Col 1</td>
+      <td><a href="#">Col 2</a></td>
+      <td>Col 3</td>
+    </tr>
+    <tr class="row">
+      <td>Col 1</td>
+      <td><a href="#">Col 2</a></td>
+      <td>Col 3</td>
+    </tr>
+    <tr>
+      <td>Col 1</td>
+      <td><a href="#">Col 3</a></td>
+      <td>Col 3</td>
+    </tr>
+  </tbody>
+</table>
+```
+
+> Add some padding and color to every cell, explaining applying CSS to to multiple elements
+
+```css
+th, td {
+  padding: 15px;
+  color: red;
+}
+```
+
+> change the color of all links in the table
+
+```css
+table a {
+  color: purple
+}
+```
+
+> but only change the font size of the links in the `<thead>`
+
+```css
+thead a {
+  font-size: 30px;
+}
+```
+
+> change the background of all elements in the table with a `.class`
+
+```css
+.row {
+  background: pink;
+}
+```
+
+> change the letter spacing of the links withing these classes
+
+```css
+.row a {
+  letter-spacing: 3px;
+}
+```
+
+## Bad pracices
+
+**ID**
+
+> Stress that it's regarded as VERY bad practice to use either IDs or !important to target elements as they're almost impossible to overwrite
+
+```css
+#h-rule {
+  margin: 20px 0;
+}
+```
+
+**!important**
+
+```css
+.row a {
+  font-family: sans-serif !important;
+}
+```
 
 ## Challenge
 
