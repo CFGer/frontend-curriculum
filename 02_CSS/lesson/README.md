@@ -75,7 +75,7 @@ h1 {
 
 > This is the preferred way because it allows for greater separation of code, a crucial part of programming in general
 
-* What can it do?
+## What can it do?
 
 The short answer is: a LOT!
 
@@ -83,12 +83,12 @@ The web is a whole different beast than what it was when CSS was first invented.
 
 CSS loosely falls into several categories:
 
-> The scope of this lesson will only be able to cover a couple
-
 * Typography, Colors and Fonts
 * Positioning, Spacing and Display
 * Animation and User Interaction (hover / click etc)
 * Responsiveness
+
+> The scope of this lesson will only be able to cover the first 2
 
 ## Code along
 
@@ -162,7 +162,7 @@ h1 {
 
 > IMPORTANT - only do external if you have time
 
-> NATIVE
+NATIVE
 >
 > HTML and CSS have a number of default fonts, but obviously there are hundreds of thousands
 >
@@ -177,7 +177,7 @@ h1 {
 }
 ```
 
-> EXTERNAL - Standard
+EXTERNAL - Standard
 > 
 > Go to [Google Fonts](https://fonts.google.com/)
 > Pick a font
@@ -191,6 +191,7 @@ h1 {
   </head>
 ```
 
+**./css/main.css**
 ```css
 h1 {
   ...
@@ -387,10 +388,12 @@ thead a {
 
 - Basic
 
-Use the starter code to create a coded version of the image provided
+Add styling to one page of the HTML homework from last week
 
 - Extended
 
-Add a second page, styled similarly
+Style the second page?
 
 ## Resources
+
+* [text](https://link)
