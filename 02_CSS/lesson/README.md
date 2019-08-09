@@ -15,11 +15,15 @@ By the end of this lesson you will:
 * Understand some basic styling features
 * Have a brief introduction to display and position
 
+---
+
 ## Intro
 
-* What is CSS?
+### What is CSS?
 
-* How does it work?
+CSS (Cascading Style Sheets) is used to style and layout web pages — for example, to alter the font, colour, size and spacing of your content, split it into multiple columns, or add animations and other decorative features
+
+### How does it work?
 
 CSS is written and imported in one of 3 ways:
 
@@ -50,9 +54,8 @@ CSS is written and imported in one of 3 ways:
 
 3. External (recommended)
 
-**index.html**
-
 ```html
+<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -64,16 +67,17 @@ CSS is written and imported in one of 3 ways:
 </html>
 ```
 
-**./css/main.css**
-
 ```css
+/* ./css/main.css */
 h1 {
   font-size: 30px;
   color: blue;
 }
 ```
 
-> This is the preferred way because it allows for greater separation of code, a crucial part of programming in general
+This is the preferred way because it allows for greater separation of code, a crucial part of programming in general
+
+---
 
 ## What can it do?
 
@@ -90,9 +94,11 @@ CSS loosely falls into several categories:
 
 > The scope of this lesson will only be able to cover the first 2
 
+---
+
 ## Code along
 
-1. Wildcard
+#### 1. Wildcard
 
 > incredibly useful technique for getting an idea of how elements fit on the page
 > 
@@ -105,11 +111,10 @@ CSS loosely falls into several categories:
 }
 ```
 
-2. Box-model
+#### 2. Box-model
 
 > the cornerstone of CSS - don't need to go into too much detail, just show the diagram that every element is made up of **content**, **padding**, **border** and **margin**
 >
-> explain that here we're targeting the ELEMENTS
 
 ![Box-model](./resources/ss1.png)
 
@@ -120,10 +125,13 @@ body {
   padding: 0;
 }
 ```
+> explain that here we're targeting the ELEMENTS
 
-#### Typography, Colors and Fonts
+---
 
-3. Typography - size, weight, decoration and alignment
+### Typography, Colors and Fonts
+
+#### 3. Typography - size, weight, decoration and alignment
 
 > let's start with a simple `<h1>`
 
@@ -140,7 +148,7 @@ h1 {
 }
 ```
 
-4. Colors - solid, hexadecimal, rgb and hsl
+#### 4. Colors - solid, hexadecimal, rgb and hsl
 
 > make sure the **color-picker** plugin is installed
 >
@@ -158,7 +166,7 @@ h1 {
 }
 ```
 
-5. Fonts - native and external
+#### 5. Fonts - native and external
 
 > IMPORTANT - only do external if you have time
 
@@ -384,16 +392,9 @@ thead a {
 
 ## Challenge
 
-## Homework
-
-- Basic
-
-Add styling to one page of the HTML homework from last week
-
-- Extended
-
-Style the second page?
-
 ## Resources
 
-* [text](https://link)
+* [Traversy Media CSS - 60mins](https://www.youtube.com/watch?v=yfoY53QXEnI&t=6s)
+* [Traversy Media Flexboox - 20mins](https://www.youtube.com/watch?v=JJSoEo8JSnc&t=512s)
+* [W3Schools](https://www.w3schools.com/css/default.asp)
+* [Mozilla Documentation](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS)
