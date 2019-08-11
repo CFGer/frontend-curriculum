@@ -1,0 +1,11 @@
+# HTML Exercise
+
+Fix the errors!
+
+There are x errors on the page; find them and fix them!
+
+HINT - use the dev tools
+
+Once everything is fixed it should look like the following
+
+![HTML Solutions](./resources/html-exercise.png)
