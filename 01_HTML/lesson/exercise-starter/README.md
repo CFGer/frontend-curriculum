@@ -2,7 +2,7 @@
 
 Fix the errors!
 
-There are x errors on the page; find them and fix them!
+There are 10 errors on the page; find them and fix them!
 
 HINT - use the dev tools
 
