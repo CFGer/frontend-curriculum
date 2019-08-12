@@ -368,6 +368,12 @@ thead a {
 }
 ```
 
+#### Mini-recap - Cascading
+
+* Pause here for recap / questions and to allow assistant instructors time to help students who have encountered issues
+
+---
+
 ## Bad practices
 
 **ID**

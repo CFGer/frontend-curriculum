@@ -1,0 +1,35 @@
+nav {
+  background: rgb(189, 124, 124);
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  display: inline;
+}
+
+header {
+  height: 400px;
+  background: rgb(54, 136, 104);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header h1 {
+  color: rgb(101, 12, 112);
+}
+
+p {
+  width: 300px;
+}
+
+.specialText {
+  color: coral;
+}
+
+table tbody tr:first-child {
+  font-size: 30px;
+}
