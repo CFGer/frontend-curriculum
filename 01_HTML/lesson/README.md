@@ -26,7 +26,7 @@
 
 1. Learn how to structure a simple website project
 2. Learn the basic HTML elements, the importance of indentation of page structure
-3. Learn the difference betwene URL paths, absolute paths and relative paths, and when and how to use what
+3. Learn how to add images and links to other pages with paths
 
 ## Intro
 
@@ -111,6 +111,15 @@ Think of it like a skeleton, or a bookshelf, or a wardrobe: it doesn't have to b
 </html>
 ```
 
+---
+
+#### Mini-recap
+
+* Pause here for recap / questions and to allow assistant instructors time to help students who have encountered issues
+* If no questions, get students to create a new HTML file (**./pages/page2.html**) and practice adding the fundamental tags
+
+---
+
 6. TYPOGRAPHY - Headers
 
 ```html
@@ -125,6 +134,12 @@ Think of it like a skeleton, or a bookshelf, or a wardrobe: it doesn't have to b
   <h6>Header 6</h6>
 </body>
 ```
+
+---
+
+#### Introduce the Dev Tools
+
+---
 
 7. TYPOGRAPHY - Paragraphs
 
@@ -173,6 +188,14 @@ Think of it like a skeleton, or a bookshelf, or a wardrobe: it doesn't have to b
   <hr>
 </body>
 ```
+
+---
+
+#### Mini-recap
+
+* Pause here for recap / questions and to allow assistant instructors time to help students who have encountered issues
+
+---
 
 10. TYPOGRAPHY - lists
 
@@ -269,6 +292,14 @@ Think of it like a skeleton, or a bookshelf, or a wardrobe: it doesn't have to b
 </body>
 ```
 
+---
+
+#### Mini-recap
+
+* Pause here for recap / questions and to allow assistant instructors time to help students who have encountered issues
+
+---
+
 13. STRUCTURE - div
 
 > Definately the most structure: briefly explain that its used as a wrapper
@@ -310,6 +341,12 @@ Think of it like a skeleton, or a bookshelf, or a wardrobe: it doesn't have to b
   <footer>Wrapper for the site page links / FAQs / contact us usually found at the bottom of a page</footer>
 </body>
 ```
+
+---
+#### CHALLENGE
+* Send out the mini-challenge:
+* The challenge is for the students to fix the broken HTML using VSCode and the Dev Tools
+---
 
 ## Recap
 

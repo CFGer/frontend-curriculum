@@ -11,9 +11,11 @@
 By the end of this lesson you will:
 
 * Know how to bring CSS into HTML
-* Understand the 'Cascading' part
+* Know the basic CSS sytax and how to target elements
+* Know what the box-model is
 * Understand some basic styling features
 * Have a brief introduction to display and position
+* Understand the 'Cascading' part
 
 ---
 
@@ -129,6 +131,12 @@ body {
 
 ---
 
+#### Mini-recap - importing CSS and Box Model
+
+* Pause here for recap / questions and to allow assistant instructors time to help students who have encountered issues
+
+---
+
 ### Typography, Colors and Fonts
 
 #### 3. Typography - size, weight, decoration and alignment
@@ -185,35 +193,13 @@ h1 {
 }
 ```
 
-EXTERNAL - Standard
-> 
-> Go to [Google Fonts](https://fonts.google.com/)
-> Pick a font
-> In the popup, you can either use **standard** or **import**
+---
 
-**index.html**
-```html
-  <head>
-    ...
-    <link href="https://fonts.googleapis.com/css?family=Blinker&display=swap" rel="stylesheet">
-  </head>
-```
+#### Mini-recap - Typography
 
-**./css/main.css**
-```css
-h1 {
-  ...
-  font-family: 'Blinker', sans-serif;
-}
-```
+* Pause here for recap / questions and to allow assistant instructors time to help students who have encountered issues
 
-> EXTERNAL - Imported
-
-**./css/main.css**
-```css
-  @import url('https://fonts.googleapis.com/css?family=Blinker&display=swap');
-```
-
+---
 
 #### Display, Spacing and Positioning
 
@@ -221,13 +207,15 @@ h1 {
 
 6. Display
 
-> `display: flex` is perhaps one of the most useful advances in CSS
-> 
-> There's far more to it than what we can cover here
+> 1. Talk about the default `display:block` vs `display:inline`
+> 2. `display: flex` is perhaps one of the most useful advances in CSS. There's far more to it than what we can cover here. In case you're wondering why we're introducing it this early, it's to a) avoid them using floats and b) help them make pages look nicer sooner
 
-**index.html**
 
 ```html
+  <!-- index.html -->
+
+  <!-- Classes are used to target multiple elements at once -->
+
   <div class="hero">
     <p class="text">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, soluta quas consequatur facere numquam voluptatum
@@ -236,9 +224,11 @@ h1 {
   </div>
 ```
 
-**./css/main.css**
 
 ```css
+/* ./css/main.css */
+
+/* we specify a class by prefixing the class name with a .  */
 .hero {
   width: 100%;
   height: 200px;
@@ -286,11 +276,19 @@ h1 {
 > ONLY IF TIME
 > 
 > Positioning can be tough for beginners, especially when dealing with absolute
+> 1. RELATIVE - default of many elements
+> 2. ABSOLUTE - use in conjunction with RELATIVE. Think of it as a game of catch: the parent element (RELATIVE) is the glove, the child element (ABSOLUTE) is the ball. The absolute element will only move as far up the ancestry tree as the first ancestor with a `position: relative`.
+> 3. FIXED - element stays where it is on the screen
 
 ```css
 
 ```
 
+#### Mini-recap - Display, Spacing and Positioning
+
+* Pause here for recap / questions and to allow assistant instructors time to help students who have encountered issues
+
+---
 
 ## Cascading
 
@@ -370,7 +368,7 @@ thead a {
 }
 ```
 
-## Bad pracices
+## Bad practices
 
 **ID**
 
@@ -391,6 +389,17 @@ thead a {
 ```
 
 ## Challenge
+
+## Recap
+
+You should now know
+
+* How to bring CSS into HTML
+* The basic CSS sytax and how to target elements
+* What the box-model is
+* Some basic styling features
+* A bit about display and positioning
+* The 'Cascading' part of CSS 
 
 ## Resources
 
