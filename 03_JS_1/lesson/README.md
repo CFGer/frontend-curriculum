@@ -2,6 +2,10 @@
 
 ## Learning outcomes
 
+* What Javascript is and how we can run it
+* The console and `console.log`
+* Variables and basic data types
+
 ## Content
 
 * What / Why / How
@@ -45,50 +49,121 @@
 >
 > Basically, `if (something is TRUTHY) do A, else do B`
 
-**Numbers**
-```javascript
-// INTEGERS - whole numbers
+--- 
 
-// var is the original variable and is what modern JS is transiled (converted) to
+**NUMBERS**
+
+Whole and decimal numbers for calculations
+```javascript
+// this is how we write a comment
+// Numbers (integers and floats) are how we perform calculations
+// =============== INTEGERS ===============
+
+// "var" is the original variable and is what modern JS is transiled (converted) to
 // But its almost never used in modern development anymore
-var num1 = 5;
+
+var int1 = 5;
+
+console.log(int1);
 
 // const and let are now the preferred terms
 
 // const is constant (can NOT be changed)
-const num2 = 10;
+const int2 = 10;
 
-num2 = 20; // ERROR
+int2 = 20; // ERROR...
 
 // let is MUTABLE (CAN be changed)
-let num3 = 15;
+let int3 = 15;
 
-num3 = 20; // FINE: num3 === 20
+
+int3 = 20; // FINE: int3 === 20
+
+console.log(int3);
 
 // RULE OF THUMB: use let when a value needs to change (in a loop); const everywhere else
 
-const sum = num2 + num3; // sum === 40
+const sum = int2 + int3; // sum === 40
 
-// FLOATS
+console.log(sum);
+
+// =============== FLOATS ===============
+// A 'floating decimal' number, or float, has a decimal point
+const float1 = 12.3
+const float2 = 145.9876795
+
+const sumFloat = float1 + float2;
+
+console.log(sumFloat)
 
 ```
 
-**Strings**
+---
+
+**STRINGS**
+
+For text
+
 ```javascript
+// We used strings for text (letters, words, sentences etc)
 // Can use single quotes
-const greeting = 'Hello';
+const string1 = 'Code';
+
+console.log(string1); // Hello
 
 // Or double quotes
-const name = "Jack";
+const string2 = "First"; 
+
+console.log(string2);
 
 // Adding multiple strings together is called CONCATENATION
-const sayHello = greeting + ' ' + name + '!';
+const cfg1 = string1 + ' ' + string2 + '!';
+
+console.log(cfg); // Code First!
 
 // We can also use backticks (bit more advanced but is neater)
-const sayHello2 = `${greeting} ${name}!`
+const cfg2 = `${string1} ${string2}!`;
+
+console.log(cfg2); // Code First!
 ```
 
+**TYPE COERCION**
+
+Coverting from one type to another
+
+```javascript
+// If we try to add two numbered strings together
+const stringSum = '1' + '2';
+
+console.log(stringSum); // '12'
+
+// Which isn't very useful
+
+// Thankfully, we can convert strings to numbers...
+const parsedInteger = parseInt('1');
+// OR
+const parsedFloat = parsedFloat('20.33');
+
+console.log(parsedInteger); // 1
+console.log(typeof parsedInteger); // Number
+
+console.log(parsedFloat); // 20.33
+console.log(typeof parsedFloat); // Number
+
+```
+
+---
+
+#### QUICK CHALLENGE
+Have the students created a variable called 'greeting' which console.logs the following:
+
+`Hi, my name is x, I'm y years old and I'm learning to code on CFG`
+
+---
+
 **Booleans**
+
+True and False
 ```javascript
 // Either true or false
 // Critical for directing flow of code
@@ -102,18 +177,24 @@ changeable_bool = false;
 ```
 
 **null**
+
+An empty value
 ```javascript
 // null is a nothing value - an empty placeholder
 const nothing = null;
 ```
+---
+#### RECAP - 5 mins
+ 
+Make sure everyone is up to speed
 
-> RECAP - 5 mins
-> 
-> Make sure everyone is up to speed
+---
 
 #### Data Types: Arrays
 
 **Arrays**
+
+Lists
 ```javascript
 // Arrays are simply lists of information
 // They can hold mixed data types
@@ -139,7 +220,18 @@ list.forEach(function(item){
 ```javascript
 ```
 
+## Exercise
+
+
+
 ## Recap
+
+You should now know:
+
+* A bit about the history of Javascript and why its so popular now
+* How to run a script
+* About the console and `console.log`
+* About variables and some basic data types
 
 ## Homework
 
