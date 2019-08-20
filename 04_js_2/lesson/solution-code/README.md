@@ -1,6 +1,6 @@
 # Lesson title
 
-## Content
+## Session Overview
 
 ## Learning outcomes
 
