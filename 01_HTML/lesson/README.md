@@ -1,9 +1,47 @@
-# HTML
+# Session 1
+## Intro to web development and HTML
 
-## Content
+## Overview of course
+* Week 1 - HTML
+* Week 2 - CSS
+* Week 3 - Project Overview and HTML / CSS recap
+* Week 4 - JS: 1 - Overview, data types, loops and conditionals
+* Week 5 - JS: 2 - Functions and Scope
+* Week 6 - JS: 3 - Objects and the DOM
+* Week 7 - Project 1: Github pages and frameworks
+* Week 8 - Project 2: Project presentation
 
-> ### Instructor Notes
-> 
+
+## Overview of Lesson
+* Learning Outcomes
+* Tools: VSCode, Chrome and Github Desktop installation
+* HTML: Background and Getting Started
+* Code along
+* Exercise
+* Recap & Closing
+* Summary
+* Homework
+
+## Learning outcomes
+Students will:
+* be able to define HTML and what its main purpose is
+* know how to create an HTML file and add the basic boilerplate (DOCTYPE, html, head and body)
+* understand what an element is and how they’re constructed
+* understand the difference between URLs, absolute and relative file paths
+* know a few of the basic elements used for typography and structure
+
+## HTML: Background and Getting Started 
+
+* HTML Background
+  * Structure & typography
+  * block & inline
+* Elements & tags:  explain what an element is made up of
+* Importance of closing tags and indentation
+* The most commonly used elements
+
+
+## Code Along
+ 
 > Send out the _starter-code_ to the students and have them open it in VSCode.
 > 
 > _IMPORTANT:_ Have them create a new folder either in Desktop or Documents called CodeFirst:Girls, and sub folder called 01_HTML
@@ -15,28 +53,14 @@
 >   |
 >   |- 01_HTML/
 >   |----index.html
+>   |----pages/
+>   |--------page2.html
 >   |----img/
 >   |--------img1.jpg
 >   |--------img2.jpg
 >   |--------img3.jpg
 > ```
 >
-
-## Learning outcomes
-
-1. Learn how to structure a simple website project
-2. Learn the basic HTML elements, the importance of indentation of page structure
-3. Learn how to add images and links to other pages with paths
-
-## Intro
-
-HTML (currently HTML5) stands for Hyper Text Markup Language, and was developed to make data more human-readable when the world wide web was in its infancy.
-
-Its job is pure structure (it has basic styling by default which is almost always overw-ridden).
-
-Think of it like a skeleton, or a bookshelf, or a wardrobe: it doesn't have to be pretty but its crucial for layout and organisation.
-
-### Code Along
 
 ---
 
@@ -118,7 +142,7 @@ Think of it like a skeleton, or a bookshelf, or a wardrobe: it doesn't have to b
 </html>
 ```
 
-13. STRUCTURE - div
+6. STRUCTURE - div
 
 > Definately the most structure: briefly explain that its used as a wrapper
 
@@ -134,7 +158,7 @@ Think of it like a skeleton, or a bookshelf, or a wardrobe: it doesn't have to b
 </body>
 ```
 
-13. STRUCTURE - semantic tage
+7. STRUCTURE - semantic tags
 
 > at the Instructor's discretion. Could mention them, but stress that they are identical to `<div>`s just with different names
 
@@ -169,7 +193,7 @@ Think of it like a skeleton, or a bookshelf, or a wardrobe: it doesn't have to b
 
 ---
 
-6. TYPOGRAPHY - Headers
+8. TYPOGRAPHY - Headers
 
 ```html
 <body>
@@ -184,7 +208,7 @@ Think of it like a skeleton, or a bookshelf, or a wardrobe: it doesn't have to b
 </body>
 ```
 
-7. TYPOGRAPHY - Paragraphs
+9. TYPOGRAPHY - Paragraphs
 
 > Can talk about typing "lorem" and auto complete
 > 
@@ -202,7 +226,7 @@ Think of it like a skeleton, or a bookshelf, or a wardrobe: it doesn't have to b
 </body>
 ```
 
-8. TYPOGRAPHY - breaks
+10. TYPOGRAPHY - breaks
 
 > Talk about `<br>` vs `<hr>`
 > 
@@ -227,14 +251,14 @@ Think of it like a skeleton, or a bookshelf, or a wardrobe: it doesn't have to b
 ---
 
 
-* lists, links and img elements (inline) (Slide 11)
+* lists, links and img elements (inline) 
   * paths (Slide 12)
   * Short recap
-* table (if time - possible small exercise) (Slide 13)
+* table (if time - possible small exercise)
   * Short recap
 
 
-10. TYPOGRAPHY - lists
+11. TYPOGRAPHY - lists
 
 > Unordered vs Ordered
 >
@@ -259,7 +283,7 @@ Think of it like a skeleton, or a bookshelf, or a wardrobe: it doesn't have to b
 </body>
 ```
 
-11. TYPOGRAPHY - links
+12. TYPOGRAPHY - links
 
 > explain URL vs relative filepath
 
@@ -270,12 +294,12 @@ Think of it like a skeleton, or a bookshelf, or a wardrobe: it doesn't have to b
   <!-- URL link -->
   <a href="http://www.google.com" target="_blank">Go to google</a>
   <!-- relative link -->
-  <a href="./page2.html">Go to page 2</a>
+  <a href="./pages/page2.html">Go to page 2</a>
   <hr>
 </body>
 ```
 
-12. TYPOGRAPHY - images
+13. TYPOGRAPHY - images
 
 > Ok, not exactly Typography per se, but useful to explain how you can wrap them in links
 >
@@ -292,7 +316,7 @@ Think of it like a skeleton, or a bookshelf, or a wardrobe: it doesn't have to b
 </body>
 ```
 
-12. TYPOGRAPHY - tables
+14. TYPOGRAPHY - tables
 
 > DO NOT USE FOR PAGE STRUCTURE!!
 >
@@ -366,5 +390,3 @@ Create a single HTML site including the elements from the brief. Special attenti
 Create the second page so it contains the elements from the brief, and link the two pages together
 
 > HINT - will need to use relative links
-
-## Resources
