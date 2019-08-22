@@ -3,7 +3,7 @@
 /* WILDCARD */
 * {
   /* overlays every item on the page with an outline. VERY useful for development */
-  /* outline: 1px solid orange; */
+  outline: 1px solid orange;
 }
 
 /* ELEMENTS */
@@ -16,14 +16,14 @@ body {
 h1 {
   color: hsl(224, 100%, 25%);
   text-decoration: underline;
-}
-
-h4 {
-  letter-spacing: 3px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
 }
 
 /* To target multiple selectors, separate them with a comma */
-h1, h4 {
+h1,
+h4 {
   text-align: center;
 }
 
@@ -35,13 +35,33 @@ h1, h4 {
   /* solid color */
   color: aqua;
 }
+
+#specificColor {
+  color: brown;
+}
+
 .color2 {
   /* Hexadecimal */
   color: #ac2399;
 }
+
 .color3 {
   /* RGB */
   color: rgb(27, 125, 48);
+}
+
+/* Spacing */
+
+.box {
+  /* content */
+  width: 150px;
+  height: 80px;
+  /* padding - top-right-bottom-left */
+  padding: 20px 40px 20px 40px; /* or 20px 40px; */
+  /* border - width-style-color */
+  border: 5px solid black;
+  /* margin */
+  margin: 40px;
 }
 
 /* Flexbox is a powerful way to position your elements */
@@ -60,7 +80,8 @@ h1, h4 {
 }
 
 /* the 'Cascading' part of CSS */
-th, td {
+th,
+td {
   padding: 15px;
   color: red;
 }
@@ -70,16 +91,20 @@ tr {
 }
 
 thead th {
-  color: purple
+  color: green;
 }
 /* All links in the table */
 table a {
-  color: purple
+  color: purple;
 }
 
 /* Only links in the head */
-thead th a {
+thead a {
   font-size: 30px;
+}
+
+.row {
+  background: pink;
 }
 
 /* !!!!!!! BAD PRACTICES !!!!!!! */
@@ -92,5 +117,5 @@ thead th a {
 
 /* !important */
 thead th {
-  /* background: rgb(0, 255, 55) !important; */
+  background: rgb(0, 255, 55) !important;
 }
