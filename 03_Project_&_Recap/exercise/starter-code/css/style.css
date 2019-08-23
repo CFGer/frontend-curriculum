@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #0b6326;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: rgb(249, 212, 149);
+}
+
+header p {
+  font-size: 14px;
+  width: 300px;
+  margin: auto;
+  line-height: 25px;
+}
+
+header hr {
+  margin: 30px;
+}
+
+/* Container for flexboxes */
+.row {
+  display: flex;
+}
+
+/* Create three unequal columns that sits next to each other */
+.column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Left and right column */
+.column.side {
+  flex: 1;
+  background: #f46666;
+}
+
+/* Middle column */
+.column.middle {
+  background: #66f4ed;
+  flex: 2;
+}
+
+/* Style the footer */
+footer {
+  background-color: #272458;
+  color: rgb(71, 186, 90);
+  font-size: 20px;
+  padding: 100px;
+  text-align: center;
+}

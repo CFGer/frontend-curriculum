@@ -418,7 +418,9 @@ thead a {
 }
 ```
 
-## Challenge
+## Exercise
+
+Style the starter code according to the instructions in the HTML
 
 ## Recap
 
