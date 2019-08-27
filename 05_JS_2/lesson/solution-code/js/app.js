@@ -53,6 +53,17 @@ var freePerson = 'Lucy';
 function outerFence() {
   var prisoner1 = 'Tim';
   console.log(freePerson);
+
+  function innerFence() {
+    var prisoner2 = 'Barry';
+    console.log(freePerson);
+    console.log(prisoner1);
+  }
+
+  console.log(prisoner2);
 }
 
-console.log(prisoner1);
+outerFence();
+innerFence();
+
+// console.log(prisoner1);
