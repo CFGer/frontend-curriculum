@@ -1,4 +1,4 @@
-# Week 3 - Pair Programming, Project and Responsive CSS
+# Week 6 - Javascript 3
 
 **Instructor notes:**
 
@@ -6,7 +6,8 @@
 
 * You have gone through the lesson README and know what you need to cover
 * The `lesson/starter-code` is zipped and ready to be sent out
-* The `recap exercise/starter-code` is zipped and ready to be sent out
+* The `homework/starter-code` is zipped and ready to be sent out
+* The exercise will be part of the code-along
 * The homework brief is ready to be sent out
 * You have your desktop space set up and ready to share
 

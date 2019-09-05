@@ -1,4 +1,4 @@
-# Week 3 - Pair Programming, Project and Responsive CSS
+# Week 1 - HTML
 
 **Instructor notes:**
 
@@ -6,15 +6,19 @@
 
 * You have gone through the lesson README and know what you need to cover
 * The `lesson/starter-code` is zipped and ready to be sent out
-* The `recap exercise/starter-code` is zipped and ready to be sent out
-* The homework brief is ready to be sent out
+* The `exercise/starter-code` is zipped and ready to be sent out
+* The `homework/starter-code` is zipped and ready to be sent out
 * You have your desktop space set up and ready to share
 
 ### Intro
 
-* Homework review and Recap
+* Make all the students feel welcome
+* Explain the curriculum and CFG's expectations
+* Set some ground rules about things like:
+  * Asking for help both in and out of class
+  * Interupting / disrupting
+  * Tardiness
 * Outline the lesson plan and session outcomes
-* Intro slides about current topic
 
 ### Code along
 
@@ -30,4 +34,4 @@
 * Start with the simple questions, working your way to more complex, thought provoking ones
 * The final questions should lead onto the class exercise (10-20mins)
 * Send out and go through the exercise solution-code (10 mins)
-* Finish with the summary / checkpoints, then send out the homework starter-code / brief
+* Finish with the summary / checkpoints, then send out the homework starter-code
