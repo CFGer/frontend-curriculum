@@ -1,9 +1,17 @@
 # Introduction to Web Development Curriculum
 ## Code First Girls 
 
-This curriculm content works in conjunction with slides and session plans to create an 8-week course which covers the fundamentals or front-end web development
+### Purpose:
 
-Each week covers a specific topic and uses a mix of code alongs, exercises and homeworks
+A beginner friendly course to serve as a strong foundation for Front-end web design & development 
+
+#### Overall learning Outcomes: 
+Learners will be able to:
+
+* Demonstrate an intermediate understanding of HTML and CSS basics and a beginning understanding of JavaScript
+* Use external resources and tools to supplement their learning
+* Design and build a hand-coded website with 3 or more linked web pages
+
 
 ### 1. HTML
 ### 2. CSS

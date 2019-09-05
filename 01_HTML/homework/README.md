@@ -1,10 +1,10 @@
 # HTML Homework
 
-## Task:
+## Basic Task:
 
-To create a simple 2-page website. You have the boilerplate starter code, pay attention to how the files are linked. It must include the following elements:
+Create a single HTML site including the following elements. Special attention needs to be paid to the file structure, indenation, structure and comments
 
-#### Page 1 & 2
+#### Page 1
 
 - `<header>...</header>`
 - `<nav>...</nav>`
@@ -13,18 +13,15 @@ To create a simple 2-page website. You have the boilerplate starter code, pay at
 - `<main>...</main>`
 - `<h1>...</h1>` to `<h6>...</h6>`
 - `<footer>...</footer>`
-
-#### Page 1 (index.html)
-
 - `<div>...</div>`
 - `<img />`
 - `<p>...</p>`
 
-#### Page 2 (./pages/page2.html)
+## Extended Task:
 
-- `<article>...</article>`
-- `<video>...</video>` (NOT `<iframe>` - its cheating)
-- `<p>...</p>`
+Create the second page so it contains the following elements, and link the two pages together
+
+- `<video>...</video>` or `<iframe>`
 - `<table>...</table>`
 
 ## Project organisation
