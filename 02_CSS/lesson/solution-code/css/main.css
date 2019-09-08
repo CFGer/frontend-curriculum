@@ -14,11 +14,8 @@ body {
 }
 
 h1 {
-  color: hsl(224, 100%, 25%);
+  color: blue;
   text-decoration: underline;
-  font-size: 20px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: bold;
 }
 
 /* To target multiple selectors, separate them with a comma */
@@ -27,26 +24,26 @@ h4 {
   text-align: center;
 }
 
-/* CLASSES */
-/* classes are a way to target multiple elements of any type containing the same class */
-
-/* There are a few ways to add color... */
-.color1 {
-  /* solid color */
-  color: aqua;
-}
+/* CLASSES and IDs */
+/* IDs are unique to a document and highly specific */
 
 #specificColor {
   color: brown;
 }
 
+.color {
+  font-size: 30px;
+}
+
+.color1 {
+  color: aqua;
+}
+
 .color2 {
-  /* Hexadecimal */
   color: #ac2399;
 }
 
 .color3 {
-  /* RGB */
   color: rgb(27, 125, 48);
 }
 

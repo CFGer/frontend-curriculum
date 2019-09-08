@@ -178,7 +178,7 @@ body {
 
 ```css
 h1 {
-  color: hsl(224, 100%, 25%);
+  color: blue;
   text-decoration: underline;
 }
 ```

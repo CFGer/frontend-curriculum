@@ -101,17 +101,17 @@ For text
 // Can use single quotes
 var string1 = "Code";
 
-console.log(string1); // Hello
+console.log(string1); // 'Code'
 
 // Or double quotes
 var string2 = "First";
 
-console.log(string2);
+console.log(string2); // 'First'
 
 // Adding multiple strings together is called CONCATENATION
 var cfg1 = string1 + " " + string2 + "!";
 
-console.log(cfg); // Code First!
+console.log(cfg1); // Code First!
 
 // We can also use backticks (bit more advanced but is neater)
 var cfg2 = `${string1} ${string2}!`;
