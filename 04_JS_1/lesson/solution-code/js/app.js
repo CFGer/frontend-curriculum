@@ -109,20 +109,17 @@ console.log(bool); // bool === false
 var nothing = null;
 console.log(nothing); // null
 
-// UNDEFINED
-// useful when you know it will hold a value outside of scope (which will make more sense in the next lesson)
-var notDefined;
-console.log(notDefined); // undefined
 
-// TRUTHY / FALSY
-// In a nutshell, the following values are falsy: everything else is truthy:
+// DATA TYPES EXERCISE
 
-// The !! will give use the truthiness of a value
-console.log(!!false);
-console.log(!!0);
-console.log(!!'');
-console.log(!!null);
-console.log(!!undefined);
+var tvShow = 'Friends';
+var characters = 6;
+var rating = 7.5;
+var hasShowFinished = true;
+// Concatenation
+var sentence = tvShow + ' was a show about ' + characters + ' friends. Its ' + hasShowFinished + ' that the show ended, and has a rating od ' + rating;
+// Interpolation
+var sentence = `${tvShow} was a show about ${characters} friends. Its ${hasShowFinished} that the show ended, and has a rating of ${rating}`;
 
 // CONTROL FLOW
 // Directs the execution of code depending on the truthy-falsey value of code
@@ -140,6 +137,16 @@ if (0) {
   // This will run if the value in the () is FALSEY, not just false
   console.log('I will run');
 }
+
+// CONTROL FLOW EXERCISE
+
+alert("I'm having a party, would you like to RSVP?");
+var answer = prompt("Yes [y] or No [n]");
+
+if (answer === 'y') {
+  alert("Looking forward to it");
+} else {
+  alert("What a shame! Maybe next time");
 
 // ARRAYS
 
@@ -162,6 +169,16 @@ list.shift();
 
 // There are many more methods that you will have to research yourselves
 
+// ARRAY EXERCISE
+
+var countries = ["United Kingdom", "France"];
+console.log(countries);
+countries.push("Spain");
+countries.shift();
+countries.splice(1,0,"Germany");
+var countryList = countries.join(',');
+console.log(countryList);
+
 // LOOPS
 // There are several different types of loops, but we're only going to focus on 1: the FOR loop
 
@@ -178,3 +195,11 @@ for (var i = 0; i < fruit.length; i++) {
 }
 
 // 'apple', 'banana', 'pineapple', 'pears'
+
+// LOOPS EXERCISE
+
+for (var i = 10; i > 0; i-) {
+  console.log(i); // 10, 9, 8, 7, 6, 5, 4, 3, 2, 1
+  // BONUS
+  console.log(i * i); // 100, 81, 64, 49, 36, 25, 16, 9, 4, 1
+}
