@@ -22,7 +22,7 @@ console.log(person.friends[0]);
 console.log(person.address.city);
 person.sayHello(); // sayHello() console.logs already
 
-// EXERCISE EXAMPLE
+// EXERCISE EXAMPLE 1 (Slides)
 var book = {
   author: 'George R. R. Martin',
   title: 'A Game of Thrones',
@@ -35,5 +35,22 @@ var book = {
   adaptedToTV: true,
   catchphrase: function() {
     console.log('Valar Morghulis');
+  }
+};
+
+// EXERCISE EXAMPLE 2
+var animal = {
+  type: 'dog',
+  breed: 'greyhound',
+  name: 'Santas Little Helper',
+  age: 6,
+  lovesTreats: true,
+  favouriteToys: ['ball', 'bone'],
+  owner: {
+    name: 'Homer',
+    age: 43
+  },
+  speak: function(){
+    return "Woof!";
   }
 };
