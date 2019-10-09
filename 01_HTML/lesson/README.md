@@ -410,7 +410,7 @@ ___
 
 ---
 
-#### EXERCISE 1.6
+#### Exercise 1.6
 
 * Have the students create a new folder in their `Week 1 - HTML` folder called **exercise**
 * Send out the `exercise/starter-code` and have them copy / move the unzipped starter-code to that folder
