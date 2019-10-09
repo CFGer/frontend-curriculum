@@ -129,7 +129,7 @@ ___
 ___
 ### 6. STRUCTURE - Semantic tags
 
-> Semantic tags are basically elements with a meaning. The browser and the developer know what it means. For example, a <table> tag tells the browser that the content within the tag is a table. But a <span> or a <div> tag tells us nothing about the content.
+> Semantic tags are basically elements with a meaning. The browser and the developer know what it means. For example, a table tag tells the browser that the content within the tag is a table. But a span or a div tag tells us nothing about the content.
 
 ```html
 <body>
@@ -181,10 +181,10 @@ ___
 * Replace the text in the header and footer tag with your own content
 
 #### Exercise 1.2 
-* Try including a paragraph and a h1 tag within an <article> tag.
+* Try including a paragraph and a h1 tag within an article tag.
 
 #### Exercise 1.3 
-* Create three articles with different text. Try placing one article inside an <aside> tag and two outside it. Enclose all the content except the header and footer in the <main> tag
+* Create three articles with different text. Try placing one article inside an <aside> tag and two outside it. Enclose all the content except the header and footer in the main tag
   
 * Sample solution (available for students in the student guides):
 
@@ -221,7 +221,7 @@ ___
 
 ### 8. TYPOGRAPHY - Headers
 > Now that we've got a basic structure for our page, let's look at some typography elements. Encourage students to use their own text and content within the tags. Headers are used for headings, there are different default sizes you can use. 
-> Header is different from the tag <head> This is a common confusion. 
+> Header is different from the tag head This is a common confusion. 
 
 ```html
 <body>
