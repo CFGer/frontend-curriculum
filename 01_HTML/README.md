@@ -5,9 +5,7 @@
 ### Before the lesson, make sure...
 
 * You have gone through the lesson README and know what you need to cover
-* The `lesson/starter-code` is zipped and ready to be sent out
-* The `exercise/starter-code` is zipped and ready to be sent out
-* The `homework/starter-code` is zipped and ready to be sent out
+* The `lesson/starter-code` and the `homework/starter-code` have been shared on the slack channel as zipped files
 * You have your desktop space set up and ready to share
 
 ### Intro
@@ -32,6 +30,5 @@
 ### Recap
 
 * Start with the simple questions, working your way to more complex, thought provoking ones
-* The final questions should lead onto the class exercise (10-20mins)
-* Send out and go through the exercise solution-code (10 mins)
+* Go through the solution for all the exercises
 * Finish with the summary / checkpoints, then send out the homework starter-code
