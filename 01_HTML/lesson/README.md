@@ -184,7 +184,7 @@ ___
 * Try including a paragraph and a h1 tag within an article tag.
 
 #### Exercise 1.3 
-* Create three articles with different text. Try placing one article inside an <aside> tag and two outside it. Enclose all the content except the header and footer in the main tag
+* Create three articles with different text. Try placing one article inside an aside tag and two outside it. Enclose all content except the header and footer in the main tag
   
 * Sample solution (available for students in the student guides):
 
