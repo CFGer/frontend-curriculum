@@ -163,7 +163,7 @@ ___
 ```html
 <body>
   <!-- STRUCTURE -->
-  <!-- div --
+  <!-- div -->
   <div>
     A very commonly used stucture element, divs are useful for organising and separating content. They are basically just
     'wrappers' for anything - could be an image, a collection of images, a block of text, an entire section of a page etc..
@@ -356,6 +356,8 @@ ___
   <hr>
 </body>
 ```
+#### Exercise 1.5
+* Add some images to your webpage. Remember to use a relative path.
 
 ### 14. Optional - Tables
 
@@ -408,7 +410,7 @@ ___
 
 ---
 
-#### CHALLENGE
+#### EXERCISE 1.6
 
 * Have the students create a new folder in their `Week 1 - HTML` folder called **exercise**
 * Send out the `exercise/starter-code` and have them copy / move the unzipped starter-code to that folder
@@ -420,11 +422,11 @@ ___
 
 ## Homework
 
-- Basic
+- Homework Task
 
   - Create a single HTML site including the elements from the brief. Special attention paid to the file structure, indenation, structure and comments
 
-- Extended
+- Extended Homework Task
 
   - Create the second page so it contains the elements from the brief, and link the two pages together
   - HINT - will need to use relative links
