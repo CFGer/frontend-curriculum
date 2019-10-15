@@ -413,9 +413,8 @@ ___
 #### Exercise 1.6
 
 * Have the students create a new folder in their `Week 1 - HTML` folder called **exercise**
-* Send out the `exercise/starter-code` and have them copy / move the unzipped starter-code to that folder
-* You will need to explain that `README.md` is a common documentation standard
-* To open preview view, right click on `README.md` in the starter-code and select Open Preview
+* Send out the Session 1_Exercise Guide
+* Get them to copy paste the incorrect code from the exercise guide into a new index.html file
 * The challenge is for the students to fix the broken HTML using VSCode and the Dev Tools
 
 ---
