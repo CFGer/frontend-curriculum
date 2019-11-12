@@ -1,4 +1,5 @@
-// EXERCISE
+
+// FUNCTIONS EXERCISE
 
 // 1. Write a function that reverses a string
 
