@@ -1,31 +1,6 @@
 /* eslint-disable no-unused-vars */
 
 
-// LOOPS
-// There are several different types of loops, but we're only going to focus on 1: the FOR loop
-
-// for(initialise; check condition; modifier if condition is true)
-for (var i = 0; i < 10; i++) {
-  console.log(i);
-}
-
-// 0, 1, 2, ..., 9
-
-// When using with arrays, we use the array length to get the index
-for (var i = 0; i < fruit.length; i++) {
-  console.log(fruit[i]);
-}
-
-// 'apple', 'banana', 'pineapple', 'pears'
-
-// LOOPS EXERCISE
-
-for (var i = 10; i > 0; i-) {
-  console.log(i); // 10, 9, 8, 7, 6, 5, 4, 3, 2, 1
-  // BONUS
-  console.log(i * i); // 100, 81, 64, 49, 36, 25, 16, 9, 4, 1
-}
-
 // Your code goes here
 
 // BASIC FUNCTIONS
