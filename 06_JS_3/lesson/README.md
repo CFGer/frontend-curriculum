@@ -193,7 +193,3 @@ Review your project ideas and determine what DOM events you think your page migh
 
 If it has a form / newsletter, pay particular attention to object literals and the ‘submit’ event
 
-- Extended
-
-  - Watch the video on the DOM
-  - Try and practice implementing some events
