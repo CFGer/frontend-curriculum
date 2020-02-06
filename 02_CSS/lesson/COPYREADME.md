@@ -129,7 +129,6 @@ CSS loosely falls into several categories:
 
 ## Code along
 
----
 
 #### Classes and IDs
 
@@ -211,11 +210,9 @@ h1 {
 - Pause here for recap / questions and to allow assistant instructors time to help students who have encountered issues
 - Optional challenge: have students
 
----
 
 ## Code along
 
----
 
 #### Wildcard
 
