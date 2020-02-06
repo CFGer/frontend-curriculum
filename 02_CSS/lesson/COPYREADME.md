@@ -129,39 +129,39 @@ CSS loosely falls into several categories:
 
 ## Code along
 
+#### Wildcard
 
-#### Classes and IDs
-
-- Classes are a way to target many different elements as you want. They don't have to be the same type of element
-- Specified with a `.`
-
-```html
-<span class="color1">Cascading </span>
-```
+> incredibly useful technique for getting an idea of how elements fit on the page
+>
+> You'll see how useful this is as we code through the lesson
 
 ```css
-.color1 {
-  color: aqua;
+* {
+  /* overlays every item on the page with an outline. VERY useful for development */
+  outline: 1px solid orange;
 }
 ```
 
-- IDs are unique (only 1 allowed)
-- Specified with a `#`
-- VERY bad practice to use IDs to add styles
+#### Box-model
 
-```html
-<span class="color2" id="specificColor">Style </span>
-```
+> the cornerstone of CSS - don't need to go into too much detail, just show the diagram that every element is made up of **content**, **padding**, **border** and **margin**
+
+![Box-model](./resources/ss1.png)
 
 ```css
-#specificColor {
-  color: brown;
-}
-
-.color2 {
-  color: #ac2399;
+body {
+  /* Its common to remove default styles */
+  margin: 0;
+  padding: 0;
 }
 ```
+
+> explain that here we're targeting the ELEMENTS
+
+
+#### Mini-recap - importing CSS and Box Model
+
+- Pause here for recap / questions and to allow assistant instructors time to help students who have encountered issues
 
 
 ### Typography
@@ -206,46 +206,41 @@ h1 {
 #### Mini-recap - Typography
 
 - Pause here for recap / questions and to allow assistant instructors time to help students who have encountered issues
-- Optional challenge: have students
-
----
-
-## Code along
+- Optional challenge: have students practice on their own - back to slides (Slide 12)
 
 
-#### Wildcard
+#### Classes and IDs
 
-> incredibly useful technique for getting an idea of how elements fit on the page
->
-> You'll see how useful this is as we code through the lesson
+- Classes are a way to target many different elements as you want. They don't have to be the same type of element
+- Specified with a `.`
+
+```html
+<span class="color1">Cascading </span>
+```
 
 ```css
-* {
-  /* overlays every item on the page with an outline. VERY useful for development */
-  outline: 1px solid orange;
+.color1 {
+  color: aqua;
 }
 ```
 
-#### Box-model
+- IDs are unique (only 1 allowed)
+- Specified with a `#`
+- VERY bad practice to use IDs to add styles
 
-> the cornerstone of CSS - don't need to go into too much detail, just show the diagram that every element is made up of **content**, **padding**, **border** and **margin**
-
-![Box-model](./resources/ss1.png)
-
-```css
-body {
-  /* Its common to remove default styles */
-  margin: 0;
-  padding: 0;
-}
+```html
+<span class="color2" id="specificColor">Style </span>
 ```
 
-> explain that here we're targeting the ELEMENTS
+```css
+#specificColor {
+  color: brown;
+}
 
-
-#### Mini-recap - importing CSS and Box Model
-
-- Pause here for recap / questions and to allow assistant instructors time to help students who have encountered issues
+.color2 {
+  color: #ac2399;
+}
+```
 
 ---
 
@@ -314,6 +309,7 @@ Spacing
 #### Mini-recap - Display & Spacing
 
 - Pause here for recap / questions and to allow assistant instructors time to help students who have encountered issues
+- Back to slides
 
 ---
 
