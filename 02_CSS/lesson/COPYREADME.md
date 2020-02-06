@@ -163,7 +163,6 @@ CSS loosely falls into several categories:
 }
 ```
 
----
 
 ### Typography
 
@@ -203,13 +202,13 @@ h1 {
 }
 ```
 
----
 
 #### Mini-recap - Typography
 
 - Pause here for recap / questions and to allow assistant instructors time to help students who have encountered issues
 - Optional challenge: have students
 
+---
 
 ## Code along
 
@@ -243,7 +242,6 @@ body {
 
 > explain that here we're targeting the ELEMENTS
 
----
 
 #### Mini-recap - importing CSS and Box Model
 
@@ -253,7 +251,6 @@ body {
 
 ## Code along
 
----
 
 #### Spacing & Display
 
