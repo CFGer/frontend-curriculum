@@ -129,40 +129,40 @@ CSS loosely falls into several categories:
 
 ## Code along
 
-#### 1. Wildcard
-
-> incredibly useful technique for getting an idea of how elements fit on the page
->
-> You'll see how useful this is as we code through the lesson
-
-```css
-* {
-  /* overlays every item on the page with an outline. VERY useful for development */
-  outline: 1px solid orange;
-}
-```
-
-#### 2. Box-model
-
-> the cornerstone of CSS - don't need to go into too much detail, just show the diagram that every element is made up of **content**, **padding**, **border** and **margin**
-
-![Box-model](./resources/ss1.png)
-
-```css
-body {
-  /* Its common to remove default styles */
-  margin: 0;
-  padding: 0;
-}
-```
-
-> explain that here we're targeting the ELEMENTS
-
 ---
 
-#### Mini-recap - importing CSS and Box Model
+#### Classes and IDs
 
-- Pause here for recap / questions and to allow assistant instructors time to help students who have encountered issues
+- Classes are a way to target many different elements as you want. They don't have to be the same type of element
+- Specified with a `.`
+
+```html
+<span class="color1">Cascading </span>
+```
+
+```css
+.color1 {
+  color: aqua;
+}
+```
+
+- IDs are unique (only 1 allowed)
+- Specified with a `#`
+- VERY bad practice to use IDs to add styles
+
+```html
+<span class="color2" id="specificColor">Style </span>
+```
+
+```css
+#specificColor {
+  color: brown;
+}
+
+.color2 {
+  color: #ac2399;
+}
+```
 
 ---
 
@@ -213,44 +213,54 @@ h1 {
 
 ---
 
-#### Classes and IDs
+## Code along
 
-- Classes are a way to target many different elements as you want. They don't have to be the same type of element
-- Specified with a `.`
+---
 
-```html
-<span class="color1">Cascading </span>
-```
+#### Wildcard
 
-```css
-.color1 {
-  color: aqua;
-}
-```
-
-- IDs are unique (only 1 allowed)
-- Specified with a `#`
-- VERY bad practice to use IDs to add styles
-
-```html
-<span class="color2" id="specificColor">Style </span>
-```
+> incredibly useful technique for getting an idea of how elements fit on the page
+>
+> You'll see how useful this is as we code through the lesson
 
 ```css
-#specificColor {
-  color: brown;
-}
-
-.color2 {
-  color: #ac2399;
+* {
+  /* overlays every item on the page with an outline. VERY useful for development */
+  outline: 1px solid orange;
 }
 ```
+
+#### Box-model
+
+> the cornerstone of CSS - don't need to go into too much detail, just show the diagram that every element is made up of **content**, **padding**, **border** and **margin**
+
+![Box-model](./resources/ss1.png)
+
+```css
+body {
+  /* Its common to remove default styles */
+  margin: 0;
+  padding: 0;
+}
+```
+
+> explain that here we're targeting the ELEMENTS
+
+---
+
+#### Mini-recap - importing CSS and Box Model
+
+- Pause here for recap / questions and to allow assistant instructors time to help students who have encountered issues
+
+---
+
+## Code along
 
 ---
 
 #### Spacing & Display
 
-6. Display
+Display
 
 > 1. Talk about the default `display:block` vs `display:inline`
 > 2. `display: flex` is perhaps one of the most useful advances in CSS. There's far more to it than what we can cover here. In case you're wondering why we're introducing it this early, it's to a) avoid them using floats and b) help them make pages look nicer sooner
@@ -283,7 +293,7 @@ h1 {
 }
 ```
 
-7. Spacing
+Spacing
 
 > Expanding the Box Model using a div
 >
