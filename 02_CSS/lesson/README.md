@@ -250,30 +250,6 @@ h1 {
 
 #### Spacing & Display
 
-7. Spacing
-
-> Expanding the Box Model using a div
->
-> Show the students the integrated box model in the chrome dev tools
-
-```html
-<div class="box">Box</div>
-```
-
-```css
-.box {
-  /* content */
-  width: 150px;
-  height: 80px;
-  /* padding - top-right-bottom-left */
-  padding: 20px 40px 20px 40px; // or 20px 40px;
-  /* border - width-style-color */
-  border: 5px solid black;
-  /* margin */
-  margin: 40px;
-}
-```
-
 6. Display
 
 > 1. Talk about the default `display:block` vs `display:inline`
@@ -304,6 +280,30 @@ h1 {
 .text {
   width: 300px;
   text-align: justify;
+}
+```
+
+7. Spacing
+
+> Expanding the Box Model using a div
+>
+> Show the students the integrated box model in the chrome dev tools
+
+```html
+<div class="box">Box</div>
+```
+
+```css
+.box {
+  /* content */
+  width: 150px;
+  height: 80px;
+  /* padding - top-right-bottom-left */
+  padding: 20px 40px 20px 40px; // or 20px 40px;
+  /* border - width-style-color */
+  border: 5px solid black;
+  /* margin */
+  margin: 40px;
 }
 ```
 
