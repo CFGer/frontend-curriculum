@@ -5,7 +5,7 @@
 ### Before the lesson, make sure...
 
 * You have gone through the lesson README and know what you need to cover
-* The `exercise-flex-form/starter-code` is zipped and ready to be sent out
+* The `exercise-flex-form/starter-code` is zipped and ready to be sent out (this is the starter code for the Session 3 code along)
 * The `exercise-fix-code/starter-code` is zipped and ready to be sent out
 * You have your desktop space set up and ready to share
 
